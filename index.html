@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <h1>Password-Generator</h1>
+            <input id="length" type="number" placeholder="Zeichenanzahl (Default: 10)">
+            <div class="input-wrapper">
+                <div class="relative">
+                    <input id="input" type="text" placeholder="Tippe auf Generieren">
+                    <div class="copy" id="copy"><svg height="14px" viewBox="-40 0 512 512" width="14px" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m271 512h-191c-44.113281 0-80-35.886719-80-80v-271c0-44.113281 35.886719-80 80-80h191c44.113281 0 80 35.886719 80 80v271c0 44.113281-35.886719 80-80 80zm-191-391c-22.054688 0-40 17.945312-40 40v271c0 22.054688 17.945312 40 40 40h191c22.054688 0 40-17.945312 40-40v-271c0-22.054688-17.945312-40-40-40zm351 261v-302c0-44.113281-35.886719-80-80-80h-222c-11.046875 0-20 8.953125-20 20s8.953125 20 20 20h222c22.054688 0 40 17.945312 40 40v302c0 11.046875 8.953125 20 20 20s20-8.953125 20-20zm0 0" fill="#000000"/>
+                      </svg></div>
+                </div>
+                <button id="btn">Generieren</button>
+            </div>
+            <div id="copyText"></div>
+        </div>
+    </main>
+    
+    
+</body>
+</html>
