@@ -1,4 +1,4 @@
-const passwordString = 'abcdefghijklmnopqrstuvwxyzßABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
+const passwordString = "abcd%+-/!,$'efghijklmnopqrstuvwxyzßABCDEF%+-/!,$'GHIJKLMNOPQRSTUVWXYZ1234567890%+-/!,$'";
 let newPass = '';
 const btn = document.getElementById("btn");
 const input = document.getElementById("input");
